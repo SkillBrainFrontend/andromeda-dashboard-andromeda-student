@@ -23,6 +23,7 @@ function App() {
       <h1>Andromeda Team</h1>
       <div className="content-container">
         <Card cardData={data[0]} />
+        <Card cardData={data[0]} />
       </div>
     </div>
   );
