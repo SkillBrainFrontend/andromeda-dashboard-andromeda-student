@@ -37,9 +37,15 @@ function App() {
       <div className="content-container">
         {
           data.map((item) => (
-              <Card name={item.name} skillBrainPosition={item.skillBrainPosition} actualJob={item.actualJob} 
-              shortDesctioption={item.shortDesctioption} socialMediaLiks={item.socialMediaLiks} gitHub={item.gitHub} 
-              linkedIn={item.linkedIn} avatar={item.avatar} />
+              <Card 
+                name={item.name} 
+                skillBrainPosition={item.skillBrainPosition} 
+                actualJob={item.actualJob} 
+                shortDesctioption={item.shortDesctioption} 
+                socialMediaLiks={item.socialMediaLiks} 
+                gitHub={item.gitHub} 
+                linkedIn={item.linkedIn} 
+                avatar={item.avatar} />
           ))
         }
         
