@@ -29,6 +29,21 @@ function App() {
       },
       avatar: require("./images/Eladie.jpg"),
     },
+    {
+      name: "Edu Adrian-Florentin",
+      skillBrainPosition: "Future Junior Front-End Developer",
+      actualJob: "Commerical Worker",
+      shortDesctioption:
+        "I can't tell you that I am one of the best candidates, what I can tell you is that I will become your nr. 1 performing employee!",
+      socialMediaLiks: {
+        gitHub: "https://github.com/Adrian-Edu",
+        linkedIn:
+          "https://www.linkedin.com/in/adrian-edu/",
+      },
+      avatar: require("./images/adrian edu.jpg"),
+    }
+
+    
   ];
 
   return (
