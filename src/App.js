@@ -24,8 +24,7 @@ function App() {
         "Junior Front-End Developer enthusiast, seek and maintain full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.",
       socialMediaLiks: {
         gitHub: "https://github.com/Eladie",
-        linkedIn:
-          "https://www.linkedin.com/in/eladie-bumbar-b53857b6/",
+        linkedIn: "https://www.linkedin.com/in/eladie-bumbar-b53857b6/",
       },
       avatar: require("./images/Eladie.jpg"),
     },
@@ -41,29 +40,37 @@ function App() {
           "https://www.linkedin.com/in/adrian-edu/",
       },
       avatar: require("./images/adrian edu.jpg"),
-    }
-
-    
+    },
+    {   
+      name: "Homoki Denis",
+      skillBrainPosition: "Student",
+      actualJob: "Frontend Developer",
+      shortDesctioption:
+        "Hardworking and ambitious individual with a great passion for Front-End technologies. I've gained experience and feel much more comfortable with the information I've learned and will want to put it to good use.",
+      socialMediaLiks: {
+        gitHub: "https://github.com/homoki-denis",
+        linkedIn: "https://www.linkedin.com/in/denis-homoki-941180223/",
+      },
+      avatar: require("./images/homoki_denis.jpg"),
+    },
   ];
 
   return (
     <div className="app-container">
       <h1>Andromeda Team</h1>
       <div className="content-container">
-        {
-          data.map((item) => (
-              <Card 
-                name={item.name} 
-                skillBrainPosition={item.skillBrainPosition} 
-                actualJob={item.actualJob} 
-                shortDesctioption={item.shortDesctioption} 
-                socialMediaLiks={item.socialMediaLiks} 
-                gitHub={item.gitHub} 
-                linkedIn={item.linkedIn} 
-                avatar={item.avatar} />
-          ))
-        }
-        
+        {data.map((item) => (
+          <Card
+            name={item.name}
+            skillBrainPosition={item.skillBrainPosition}
+            actualJob={item.actualJob}
+            shortDesctioption={item.shortDesctioption}
+            socialMediaLiks={item.socialMediaLiks}
+            gitHub={item.gitHub}
+            linkedIn={item.linkedIn}
+            avatar={item.avatar}
+          />
+        ))}
       </div>
     </div>
   );
