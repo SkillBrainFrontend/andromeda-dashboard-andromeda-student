@@ -4,11 +4,11 @@ import Card from "./Card";
 function App() {
   const data = [
     {
-      name: "Sapovalov Alexandru",
+      name: "Shapovalov Alexandru",
       skillBrainPosition: "Mentor",
       actualJob: "Frontend Developer",
       shortDesctioption:
-        "Front-End Developer and Tech enthusiast with 4+ years of experience building Web and cross-platform solutions in diverse areas of industry. As a SkillBrain mentor can share the experience, I've gained over these years and my love for programming with others.",
+        "Front-End Developer and Tech enthusiast with 5+ years of experience building Web and cross-platform solutions in diverse areas of industry. As a SkillBrain mentor I can share the experience, I've gained over these years and my love for programming with others.",
       socialMediaLiks: {
         gitHub: "https://github.com/shapovalov-sasha",
         linkedIn:
