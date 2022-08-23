@@ -77,6 +77,21 @@ function App() {
       },
       avatar: require("./images/daniel_neagoe.jpg"),
     },
+
+   {  name: "Laura Popa",
+      skillBrainPosition: "Front-End Developer Student",
+      actualJob: "-",
+      shortDesctioption:
+        "I am an enthusiastic Front-End Developer at the beginning of my professional journey. I am always looking to improve my skills, to learn new technologies and acquire on-the-job experience. I am able to effectively work independently, as well as collaborate as part of a team.",
+      socialMediaLiks: {
+        gitHub: "https://github.com/LauraPopa27",
+        linkedIn: "https://www.linkedin.com/in/laura-ioana-popa-a6336518b/",
+      },
+      avatar: require("./images/laura-popa.jpg"),
+    },
+
+
+
   ];
 
   return (
