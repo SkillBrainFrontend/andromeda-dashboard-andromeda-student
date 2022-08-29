@@ -77,7 +77,8 @@ function App() {
       },
       avatar: require("./images/daniel_neagoe.jpg"),
     },
-   {  name: "Laura Popa",
+   {  
+      name: "Laura Popa",
       skillBrainPosition: "Front-End Developer Student",
       actualJob: "-",
       shortDesctioption:
