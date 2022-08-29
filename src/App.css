@@ -119,7 +119,7 @@ h1 {
 
 .card-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .name-box {
