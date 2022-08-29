@@ -4,11 +4,11 @@ import Card from "./Card";
 function App() {
   const data = [
     {
-      name: "Sapovalov Alexandru",
+      name: "Shapovalov Alexandru",
       skillBrainPosition: "Mentor",
       actualJob: "Frontend Developer",
       shortDesctioption:
-        "Front-End Developer and Tech enthusiast with 4+ years of experience building Web and cross-platform solutions in diverse areas of industry. As a SkillBrain mentor can share the experience, I've gained over these years and my love for programming with others.",
+        "Front-End Developer and Tech enthusiast with 5+ years of experience building Web and cross-platform solutions in diverse areas of industry. As a SkillBrain mentor I can share the experience, I've gained over these years and my love for programming with others.",
       socialMediaLiks: {
         gitHub: "https://github.com/shapovalov-sasha",
         linkedIn:
@@ -86,7 +86,20 @@ function App() {
         gitHub: "https://github.com/LauraPopa27",
         linkedIn: "https://www.linkedin.com/in/laura-ioana-popa-a6336518b/",
       },
-      avatar: require("./images/laura-popa.jpg"),
+      avatar: require("./images/laura-popa.jpg")
+    },
+    {
+      name: "Botezatu Ionut-Razvan",
+      skillBrainPosition: "Student",
+      actualJob: "Frontend Developer",
+      shortDesctioption:
+        "I am a self-driven front-end developer and have been in the industry for more than one year. I have a keen eye for detail and for the work I do. In addition, I have also finished an SkillBrain Front-End Web Development Training Course in 2022. I am a person who is able to control a situation rather than have a situation control me. (...)",
+      socialMediaLiks: {
+        gitHub: "https://github.com/iBRazvan",
+        linkedIn:
+          "https://www.linkedin.com/in/ionuț-răzvan-botezatu6199/",
+      },
+      avatar: require("./images/bri-modified.png"),
     },
   ];
 
