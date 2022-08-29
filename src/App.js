@@ -77,7 +77,6 @@ function App() {
       },
       avatar: require("./images/daniel_neagoe.jpg"),
     },
-
    {  name: "Laura Popa",
       skillBrainPosition: "Front-End Developer Student",
       actualJob: "-",
@@ -89,9 +88,6 @@ function App() {
       },
       avatar: require("./images/laura-popa.jpg"),
     },
-
-
-
   ];
 
   return (
