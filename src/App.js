@@ -46,7 +46,7 @@ function App() {
       skillBrainPosition: "Student",
       actualJob: "Junior Front-End Trainee",
       shortDesctioption:
-        "I am not one of the best Junior Front-End developers from the world, I’m not even from Romania, not even from my class, still I will become one of the best programmers soon, maybe not today, maybe not tomorrow, but in a couple of years, you are going to know my name!",
+        "What makes me unique is my passion for learning, motivation, ambition, dedication, well-organised, hard working attitude and strong belief that success comes from being fully committed to a purpose. The challenge of discovering something completely different every day is what I love most about programming.",
       socialMediaLiks: {
         gitHub: "https://github.com/Adrian-Edu",
         linkedIn: "https://www.linkedin.com/in/adrian-edu/",
