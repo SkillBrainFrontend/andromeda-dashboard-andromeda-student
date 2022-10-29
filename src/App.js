@@ -43,8 +43,8 @@ function App() {
     },
     {
       name: "Edu Adrian-Florentin",
-      skillBrainPosition: "Future Junior Front-End Developer",
-      actualJob: "Commerical Worker",
+      skillBrainPosition: "Student",
+      actualJob: "Junior Front-End Trainee",
       shortDesctioption:
         "I am not one of the best Junior Front-End developers from the world, I’m not even from Romania, not even from my class, still I will become one of the best programmers soon, maybe not today, maybe not tomorrow, but in a couple of years, you are going to know my name!",
       socialMediaLiks: {
@@ -85,12 +85,11 @@ function App() {
         "I am a self-driven front-end developer and have been in the industry for more than one year. I have a keen eye for detail and for the work I do. In addition, I have also finished an SkillBrain Front-End Web Development Training Course in 2022. I am a person who is able to control a situation rather than have a situation control me. (...)",
       socialMediaLiks: {
         gitHub: "https://github.com/iBRazvan",
-        linkedIn:
-          "https://www.linkedin.com/in/ionuț-răzvan-botezatu6199/",
+        linkedIn: "https://www.linkedin.com/in/ionuț-răzvan-botezatu6199/",
       },
       avatar: require("./images/bri-modified.png"),
     },
-    {  
+    {
       name: "Laura Popa",
       skillBrainPosition: "Front-End Developer Student",
       actualJob: "-",
@@ -100,7 +99,7 @@ function App() {
         gitHub: "https://github.com/LauraPopa27",
         linkedIn: "https://www.linkedin.com/in/laura-ioana-popa-a6336518b/",
       },
-      avatar: require("./images/laura-popa.jpg")
+      avatar: require("./images/laura-popa.jpg"),
     },
   ];
 
